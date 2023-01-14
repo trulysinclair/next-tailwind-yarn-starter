@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Included Packages & Tools
+
+- TailwindCSS
+- Yarn
+  - plugins:
+    - typescript: auto-imports necessary type definitions
+    - stage: commit yarn-specific changes independently from yours
+    - interactive-tools: use a terminal UI to see newer versions fo packages and more
+- Commands
+  - commit: commit yarn changes
+  - up-all: interactively upgrade dependencies
+
 ## Getting Started
 
 First, run the development server:

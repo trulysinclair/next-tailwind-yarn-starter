@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "commit": "yarn stage --commit",
+    "up-all": "yarn upgrade-interactive",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,5 +21,11 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "packageManager": "yarn@3.3.1",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
   }
 }
